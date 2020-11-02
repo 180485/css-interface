@@ -1,0 +1,47 @@
+body{
+    box-sizing: border-box;
+    
+}
+
+.container {
+    background-color:#4B8EE9;
+    height: 480px;
+    width: 320px;
+    padding: 20px;
+    color: white;
+    margin:120px;
+
+}
+
+p {
+    border-bottom: solid white 1px;
+}
+
+
+h4{
+    text-align: right;
+}
+
+h1{
+    font-size: 60px;
+    margin: 20px;
+    margin-left: -10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.nummer {
+    text-align: right;
+    margin-right: -40px;
+   
+}
+
+.colom {
+    width: 300px;
+    
+}
+   
+
+.colom .nummer {
+    border-bottom: white;
+}
