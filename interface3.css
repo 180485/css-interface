@@ -1,5 +1,5 @@
 body {
-    box-sizing: border-box;
+    @
     margin: 10px;
     padding: 10px;
 }
@@ -61,5 +61,5 @@ h3 {
 }
 
 p{
-    color: gray;
+    color: cadetblue;
 }
