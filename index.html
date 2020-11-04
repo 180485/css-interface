@@ -1,47 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>ECXERCISE</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
+    <title>exercise</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
+    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
-<style>
-  body {
-    background-color: thistle;
-  
-  }
-  h1{
-    text-align: center;
-    font-family: 'Noto Serif', serif;
-  }
-  h3{
-    text-align:center;
-  }
-  div{
-    text-align: center;
-  }
-  h2{
-    text-align: center;
-    font-size: 200px;
-    color: tomato;
-  
-  }
-  
-  </style>
-  
-  <h1><b>INTERFACE </h1></b>
-  
+   <style>
 
-  <h3><a href="interface1.html">ECXERCISE 01</a></h3>
-  <h3><a href="interface2.html">ECXERCISE 02</a></h3>
-  <h3><a href="interface3.html">ECXERCISE 03</a></h3>
-  <h2><i class="fas fa-laptop-code "></i></h2>
-  <div class="footer-copyright text-center py-3">© 2020 Copyright:
-  <a href="https://github.com/180485"> ISMI ANDHYKAWATI</a>
+    body{
+            background-color: slategrey;
+        }
+    .jumbotron {
+    background-image: url(malam.jpg);
+    background-repeat: repeat-x;
+    animation: animate 15s linear infinite;
+    margin-bottom: -100px;
+    height: 50%;
+}
+
+@keyframes animate {
+    from{
+        background-position: 0 0 ;
+    }to{
+        background-position: 100% 0;
+    }
+}
+h1 {
+   font-size: 20px;
+   padding-top: 250px;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.button{
+text-align: center;
+border-color: #3498db;
+color: #fff;
+box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+-webkit-transition: all 150ms ease-in-out;
+transition: all 150ms ease-in-out
+}
+.button:hover {
+box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+h2{
+  text-align: center;
+  font-size: 89px;
+}
+
+</style>
+<div class="jumbotron">
+    <div class="container text-center">
+        <h1>Interface </h1>
+     </div>
+     <div class="button">
+        <a class="btn btn-primary" href="interface1.html" role="button">interface 1</a>
+        <a class="btn btn-primary" href="interface2.html" role="button">interface 2</a>
+        <a class="btn btn-primary" href="interface3.html" role="button">interface 3</a>
+     
+      </div>
+     <h2><i class="fas fa-laptop-code "></i></h2>
+      <br> <br>
+     <div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://github.com/180485"> ISMI ANDHYKAWATI</a>
   </div>
 
+</div>
 </body>
 </html>
 
